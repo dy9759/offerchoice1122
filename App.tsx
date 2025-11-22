@@ -10,7 +10,7 @@ import { Sparkles, Briefcase, User, BarChart3, Globe } from 'lucide-react';
 
 const TRANSLATIONS = {
   en: {
-    title: "Choiceless",
+    title: "JobChoice",
     subtitle: "AI Career Agent",
     stepResume: "Resume",
     stepOffers: "Offers",
@@ -19,11 +19,11 @@ const TRANSLATIONS = {
     placeholderOffers: "Paste offer details (Salary, Role, Company) or upload offer letter...",
     placeholderAnalysis: "Ask questions about the ranking or specific companies...",
     placeholderDefault: "Type a message...",
-    disclaimer: "Choiceless can make mistakes. Please verify important career information.",
-    welcomeMessage: "**Welcome to Choiceless.** \n\nI am your AI Career Strategist. To help you choose the best offer, I first need to understand your background.\n\n**Please upload your Resume/CV** or briefly describe your experience and what you are looking for in your next role."
+    disclaimer: "JobChoice can make mistakes. Please verify important career information.",
+    welcomeMessage: "**Welcome to JobChoice.** \n\nI am your AI Career Strategist. To help you choose the best offer, I first need to understand your background.\n\n**Please upload your Resume/CV** or briefly describe your experience and what you are looking for in your next role."
   },
   zh: {
-    title: "Choiceless",
+    title: "JobChoice",
     subtitle: "AI 职业助手",
     stepResume: "简历",
     stepOffers: "Offer",
@@ -32,8 +32,8 @@ const TRANSLATIONS = {
     placeholderOffers: "粘贴 Offer 详情（薪资、职位、公司）或上传 Offer 录用信...",
     placeholderAnalysis: "询问关于排名或特定公司的问题...",
     placeholderDefault: "输入消息...",
-    disclaimer: "Choiceless 可能会犯错。请核实重要的职业信息。",
-    welcomeMessage: "**欢迎使用 Choiceless。** \n\n我是您的 AI 职业策略顾问。为了帮您做出最佳选择，我首先需要了解您的背景。\n\n**请上传您的简历/CV**，或者简要描述您的工作经验以及您对下一份工作的期望。"
+    disclaimer: "JobChoice 可能会犯错。请核实重要的职业信息。",
+    welcomeMessage: "**欢迎使用 JobChoice。** \n\n我是您的 AI 职业策略顾问。为了帮您做出最佳选择，我首先需要了解您的背景。\n\n**请上传您的简历/CV**，或者简要描述您的工作经验以及您对下一份工作的期望。"
   }
 };
 

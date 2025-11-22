@@ -1,5 +1,5 @@
 {
-  "name": "Choiceless",
+  "name": "JobChoice",
   "description": "An AI-powered career decision assistant that analyzes job offers, compares them against your profile, and provides data-driven recommendations using Gemini and Google Search.",
   "requestFramePermissions": []
 }

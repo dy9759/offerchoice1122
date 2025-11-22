@@ -143,7 +143,7 @@ const InputArea: React.FC<InputAreaProps> = ({ onSend, disabled, placeholder, di
         </button>
       </div>
       <div className="text-center mt-2 text-[10px] text-gray-600 font-medium">
-        {disclaimerText || "Choiceless can make mistakes. Please verify important career information."}
+        {disclaimerText || "JobChoice can make mistakes. Please verify important career information."}
       </div>
     </div>
   );

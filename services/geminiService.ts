@@ -7,7 +7,7 @@ const ai = new GoogleGenAI({ apiKey });
 const MODEL_NAME = "gemini-2.5-flash";
 
 const SYSTEM_INSTRUCTIONS = {
-  en: `You are "Choiceless", an elite AI Career Strategist. Your goal is to help the user make the absolute best career decision among their job offers.
+  en: `You are "JobChoice", an elite AI Career Strategist. Your goal is to help the user make the absolute best career decision among their job offers.
 
   Style:
   - Professional, concise, yet empathetic.
@@ -37,7 +37,7 @@ const SYSTEM_INSTRUCTIONS = {
   
   **Grounding Rule**: Always use Google Search to verify company stability and growth prospects before giving a final recommendation.`,
 
-  zh: `你是 "Choiceless" (无选之选)，一位精英级 AI 职业策略师。你的目标是帮助用户在众多工作机会中做出绝对最佳的职业决策。
+  zh: `你是 "JobChoice" (智选职途)，一位精英级 AI 职业策略师。你的目标是帮助用户在众多工作机会中做出绝对最佳的职业决策。
 
   风格：
   - 专业、简练，但富有同理心。
@@ -70,7 +70,7 @@ const SYSTEM_INSTRUCTIONS = {
 
 /**
  * Generates a response based on the current conversation context and gathered data.
- * This function is designed to handle the specific flow of Choiceless.
+ * This function is designed to handle the specific flow of JobChoice.
  */
 export const generateAssistantResponse = async (
   history: { role: 'user' | 'model', parts: { text?: string, inlineData?: { mimeType: string, data: string } }[] }[],
