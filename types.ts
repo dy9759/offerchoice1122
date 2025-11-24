@@ -35,8 +35,11 @@ export enum AppStep {
   WELCOME = 'WELCOME',
   OFFER_COLLECTION = 'OFFER_COLLECTION',
   PROFILE_COLLECTION = 'PROFILE_COLLECTION',
+  MODE_SELECTION = 'MODE_SELECTION',
   ANALYSIS = 'ANALYSIS',
 }
+
+export type AnalysisMode = 'standard' | 'horoscope' | 'bazi';
 
 export interface OfferData {
   id: string;
